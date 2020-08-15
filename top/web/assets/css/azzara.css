@@ -385,17 +385,18 @@ body {
 
 .main-header {
 	background: #ffffff;
-	min-height: 55px;
+	/*min-height: 55px;*/
 	width: 100%;
 	position: fixed;
 	z-index: 1001;
 }
 
+
 .main-header .logo-header {
 	float: left;
 	width: 240px;
-	height: 57px;
-	line-height: 55px;
+	/*height: 57px;*/
+	/*line-height: 55px;*/
 	color: #333333;
 	z-index: 1001;
 	font-size: 17px;
@@ -4122,6 +4123,10 @@ label.error {
 @media screen and (max-width: 991px) {
 	.notif-box .notif-scroll, .messages-notif-box .message-notif-scroll {
 		max-height: calc(100vh - 200px);
+	}
+	.main-header {
+		min-height: auto !important;
+		height: 55px !important;
 	}
 }
 /*     Chart Circle    */

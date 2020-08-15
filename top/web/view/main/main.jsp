@@ -49,14 +49,7 @@
 </head>
 <body>
 	<div class="wrapper">
-
-		<c:choose>
-			<c:when test="${loginId == null }">
-				<jsp:include page="../user/login.jsp" />
-			</c:when>
-
-			<c:otherwise>
-				<jsp:include page="header.jsp" />
+		<jsp:include page="header.jsp" />
 				<jsp:include page="sidebar.jsp" />
 
 				<!--  Center Page Here! -->
@@ -70,13 +63,20 @@
 								</c:when>
 
 							</c:choose>
-
-
 						</div>
 					</div>
 				</div>
-			</c:otherwise>
-		</c:choose>
+<!--  
+	  	<c:choose>
+			<c:when test="${loginId == null }">
+				<jsp:include page="../user/login.jsp" />
+			</c:when>
+
+	  		<c:otherwise>
+			
+  			</c:otherwise>
+		</c:choose> 
+		-->
 	</div>
 </body>
 

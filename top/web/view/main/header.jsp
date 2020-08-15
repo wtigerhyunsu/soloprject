@@ -4,27 +4,30 @@
 	src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <script>
-
+	
 </script>
-
-
+<style>
+@media screen and (max-width: 991px) {
+	.navbar {
+		position: absolute !important;
+	}
+}
+</style>
 
 <div class="main-header" data-background-color="red">
 	<!-- Logo Header -->
 	<div class="logo-header">
 
-			<!--  <h3 class="navbar-brand">WATCHER</h3>
+		<!--  <h3 class="navbar-brand">WATCHER</h3>
 		-->
-		<a href="index.html" class="logo">
-		WATCHER
-		</a>
+		<a href="index.html" class="logo"> WATCHER </a>
 		<button class="navbar-toggler sidenav-toggler ml-auto" type="button"
 			data-toggle="collapse" data-target="collapse" aria-expanded="false"
 			aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"> <i class="fa fa-bars"></i>
 			</span>
 		</button>
-		
+
 		<button class="topbar-toggler more">
 			<i class="fa fa-ellipsis-v"></i>
 		</button>
@@ -38,7 +41,7 @@
 
 	<!-- Navbar Header -->
 	<nav class="navbar navbar-header navbar-expand-lg">
-<!-- 
+
 		<div class="container-fluid">
 			<div class="collapse" id="search-nav">
 				<form class="navbar-left navbar-form nav-search mr-md-3">
@@ -60,9 +63,8 @@
 				</a></li>
 
 
- -->
 				<!-- Notification -->
-<!--  			<li class="nav-item dropdown hidden-caret"><a
+				<li class="nav-item dropdown hidden-caret"><a
 					class="nav-link dropdown-toggle" href="#" id="notifDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
 					aria-expanded="false"> <i class="fa fa-bell"></i> <span
@@ -82,10 +84,8 @@
 								notifications<i class="fa fa-angle-right"></i>
 						</a></li>
 					</ul></li>
--->
-
 				<!-- MyPage -->
-<!--  				<li class="nav-item dropdown hidden-caret"><a
+				<li class="nav-item dropdown hidden-caret"><a
 					class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"
 					aria-expanded="false">
 						<div class="avatar-sm">
@@ -128,7 +128,6 @@
 
 			</ul>
 		</div>
--->		
 	</nav>
 	<!-- End Navbar -->
 </div>

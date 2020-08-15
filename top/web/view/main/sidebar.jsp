@@ -4,7 +4,8 @@
 	<div class="sidebar-background"></div>
 	<div class="sidebar-wrapper scrollbar-inner">
 		<div class="sidebar-content">
-			<div class="user">
+			<c:choose>
+				<c:when test="${loginId == null }">			<div class="user">
 				<div class="avatar-sm float-left mr-2">
 					<img src="assets/img/profile.jpg" alt="..."
 						class="avatar-img rounded-circle">
@@ -43,6 +44,10 @@
 					</div>
 				</div>
 			</div>
+			</c:when>
+				<c:otherwuse>
+				</c:otherwuse>
+			</c:choose>
 
 
 			<!-- MENU START HERE -->
